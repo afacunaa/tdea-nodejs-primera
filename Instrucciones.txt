@@ -1,0 +1,15 @@
+Instrucciones:
+
+El archivo principal se debe correr estando ubicado en la carpeta contenedora con el comando:
+
+	> node principal
+	
+Al correr el anterior comando se listan los cursos disponibles.
+
+Para realizar la inscripción de un curso, se debe correr el comando de la siguiente forma:
+
+	> node principal inscribir -i X -n NOMBRE -c Y
+	
+En el anterior comando X corresponde al numero de identificador del curso el cuál debe ser un número válido.
+NOMBRE corresponde al nombre de la persona que se matricula.
+Y corresponde al número de cédula de la persona que se matricula.
